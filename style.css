@@ -1,0 +1,41 @@
+.contactbody {
+    background-image: url('./Assets/Images/cork-board.png');
+    background-repeat: repeat;
+    background-size: auto;
+    /* I cant figure out why my image stops half way thru my page - im assuming it's got to do with my box I created */
+}
+
+/* I can not get this to work for the life of me!!!! */
+.background {
+    background-image: url('../Images/watercolor.img');
+    background-repeat: repeat;
+    background-size: auto;
+
+}
+
+
+#contactnav {
+    background-color: burlywood;
+    color: black;
+}
+
+#indexnav {
+    background-color: hotpink;
+}
+
+h1 {
+    color: purple;
+}
+
+.img-responsive {
+    width: 200px;
+    height: 350px;
+}
+
+
+
+/* body{
+    background-image: url('../images/black_thread_@2X.png');
+    background-repeat: repeat;
+    background-size: auto;
+} */
