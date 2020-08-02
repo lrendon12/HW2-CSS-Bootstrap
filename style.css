@@ -1,13 +1,16 @@
 .contactbody {
     background-image: url('./Assets/Images/cork-board.png');
     background-repeat: repeat;
-    background-size: auto;
-    /* I cant figure out why my image stops half way thru my page - im assuming it's got to do with my box I created */
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: burlywood;
+    /* I cant figure out why my image stops half way thru my page - im assuming it's got to do with my box I created ??? */
 }
 
 /* I can not get this to work for the life of me!!!! */
-.background {
-    background-image: url('../Images/watercolor.img');
+.indexstyle {
+    background-image: url('./Assets/Images/watercolor.png');
     background-repeat: repeat;
     background-size: auto;
 
@@ -30,12 +33,15 @@ h1 {
 .img-responsive {
     width: 200px;
     height: 350px;
+    float: left;
+    padding: 20px;
+}
+
+p {
+    font-size: medium;
+    text-align: : center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
-
-/* body{
-    background-image: url('../images/black_thread_@2X.png');
-    background-repeat: repeat;
-    background-size: auto;
-} */
+/* im not sure if the css.style page and the html page are conflicting w/the each other but my background is ont filling my page */
