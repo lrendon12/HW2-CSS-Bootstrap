@@ -1,19 +1,18 @@
 .contactbody {
     background-image: url('./Assets/Images/cork-board.png');
-    background-repeat: repeat;
-    background-size: 100%;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: burlywood;
-    /* I cant figure out why my image stops half way thru my page - im assuming it's got to do with my box I created ??? */
+    margin: 15%;
+    text-align: center;
+    background-size: cover;
 }
+
+/* I cant figure out why my image stops half way thru my page - im assuming it's got to do with my box I created ??? */
 
 /* I can not get this to work for the life of me!!!! */
 .indexstyle {
     background-image: url('./Assets/Images/watercolor.png');
-    background-repeat: repeat;
-    background-size: auto;
-
+    margin: 15%;
+    text-align: center;
+    background-size: cover;
 }
 
 
